@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>First Landing Page</title>
+	<title>TravelGuide</title>
 
 	<meta charset="utf-8">
 
@@ -60,6 +60,7 @@
 
     <a href="#page1" class="navbar-wagon-item navbar-wagon-link js-scrollTo" id="order-link">Accueil</a>
     <a href="#page2bis" class="navbar-wagon-item navbar-wagon-link js-scrollTo" id="product-link" >Itinéraires</a>
+    <a href="secondpage.html" class="navbar-wagon-item navbar-wagon-link js-scrollTo">Seconde page</a>
     <a href="#page3" class="navbar-wagon-item navbar-wagon-link js-scrollTo" id="message-link" >Contact</a>
 
     <!-- Profile picture with dropdown list -->
@@ -80,15 +81,15 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <li><a href="#page1" class="navbar-wagon-item navbar-wagon-link js-scrollTo">Accueil</a></li>
+        <li><a href="#page2bis" class="navbar-wagon-item navbar-wagon-link js-scrollTo">Itinéraires</a></li>
+        <li><a href="#page3" class="navbar-wagon-item navbar-wagon-link js-scrollTo">Contact</a></li>
       </ul>
     </div>
   </div>
 </div>
 
-	<div class="banner" id="page1" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('voyage.jpeg');">
+	<div class="banner" id="page1" style="background-image: linear-gradient(-225deg, rgba(69, 69, 69,0.6) 0%, rgba(232, 232, 232,0.6) 40%), url('voyage.jpeg');">
 		<div class="banner-content">
 			<h1>DÉCOUVREZ L'INOUBLIABLE</h1>
 			<p id="slogan">Conseils, recommandations et bonnes adresses pour vos voyages</p>
@@ -97,9 +98,8 @@
 	</div>
 
 <div class="subcontent" id="page2bis">
+</br>
 <h2>Nos itinéraires</h2>
-
-<br/>
 
 <div class="container" id="page2">
 	<div class="row">
@@ -112,11 +112,11 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</br>
+
 			<iframe width="360" height="300" frameborder="0" style="border:0"
 			src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyCUFCUEXLDEhMzdQVfFcA1a2uZUCxMRusU" allowfullscreen></iframe>
-
 		</div>
+
 		<div class="col-xs-12 col-md-4">
 			<img class="product" src="montreal.jpg" height="300">
 			<h3>Montréal</h3>
@@ -126,10 +126,11 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</br>
+
 			<iframe width="360" height="300" frameborder="0" style="border:0"
 			src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJDbdkHFQayUwR7-8fITgxTmU&key=AIzaSyAvH4Uq0uMJj3Kdo8YiHPVBCm32Qhv6Pog" allowfullscreen></iframe>
 		</div>
+
 		<div class="col-xs-12 col-md-4">
 			<img class="product" src="bangkok.jpg" height="300">
 			<h3>Bangkok</h3>
@@ -139,7 +140,7 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</br>
+
 			<iframe width="360" height="300" frameborder="0" style="border:0"
 			src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ82ENKDJgHTERIEjiXbIAAQE&key=AIzaSyCqNiXLYudiSsrYjpYtmCEHYFLNRhIqHug" allowfullscreen></iframe>
 		</div>
@@ -153,7 +154,7 @@
 	<!-- Begin MailChimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Lato; padding-top: 5% ; padding-bottom: 5% }
+	#mc_embed_signup{clear:left; font:14px Lato; padding-bottom: 5% }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 	</style>
@@ -171,7 +172,7 @@
 		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 	</div>
 
-	<div class="mc-field-group">
+	<div class="mc-field-group2">
 		<label for="mce-FNAME">Prénom</label>
 		<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 	</div>
@@ -205,6 +206,9 @@
     <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
 
+	<div class="footer-copyright">
+    Pauline Florit et Louis Garcia
+  	</div>
 
   </div>
   

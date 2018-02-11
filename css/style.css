@@ -1,48 +1,18 @@
+@import url("components/banner.css");
+@import url("components/navbar.css")
+
 body{
   position: relative;
   background-color: #F8F8F8 !important;
   font-family: lato
 }
 
-.banner {
-  color : black;
-  text-align: center;
-  height: 400px;
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #companyname{
   color: black;
   font-size: 30px;
-  margin-left: -700px;
-  margin-top: 5px;
+  text-align: left;
+  margin-top: 10px;
   font-family: Bowlby One SC;
-
-}
-
-#slogan {
-  color: white;  
-  font-family: lato;
-}
-
-.banner h1 {
-  font-size: 40px;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  color: white;
-  font-family: Bowlby One SC;
-}
-.banner p {
-  font-size: 20px;
-  font-weight: lighter;
-  color: black;
-  opacity: 0.6;
-  margin-bottom: 30px;
-  text-align: center;
-  font-family: lato;
 }
 
 .subcontent{
@@ -72,8 +42,8 @@ body{
 
 .newsletter {
   text-align: center;
-  background-image : url(https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
-  opacity: 0.5;
+  background-image : linear-gradient(-225deg, rgba(69, 69, 69,0.6) 0%, rgba(232, 232, 232,0.6) 20%), url(news.jpeg) ;
+  background-size: cover !important;
 }
 
 .footer {
@@ -111,8 +81,9 @@ body{
   color: white;
   opacity: 0.4;
 }
-.footer .fa-heart {
-  color: #D23333;
+.footer-copyright {
+  color: white;
+  font-family: lato;
 }
 
 #btn {
@@ -155,6 +126,7 @@ body{
   justify-content: space-between;
   font-family: lato;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /* Basic navbar item */
@@ -171,6 +143,7 @@ body{
 .navbar-wagon-link {
   color: #000000;
   font-size: 14px;
+  text-decoration: none;
 }
 .navbar-wagon-link:hover {
   color: #0091e5;
@@ -209,11 +182,17 @@ body{
 }
 
 .mc-field-group1 {
-
- margin-right: 104px;
-
+ margin-right: 44px;
+}
+.mc-field-group2 {
+ margin-right: 61px;
 }
 
 .mc-field-group {
-  margin-right: 80px;
+  margin-right: 40px;
+}
+
+iframe {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
